@@ -6,6 +6,10 @@ Run
 
 `com.felstar.ssh.server.ServerMain`
 
+or 
+
+`sbt run`
+
 You can:
 
 Command: miaow
@@ -29,6 +33,8 @@ exit code will be 255/-1
 Shell
 
 `ssh localhost`
+
+_You may need to change the setShellFactory call for your system (currently expects Windows 10 LSS bash shell)_
 
 SFTP
 
